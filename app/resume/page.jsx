@@ -7,47 +7,43 @@ import {
   FaReact,
   FaFigma,
   FaNodeJs,
+  FaPython,
+  FaGithub,
+  FaDatabase,
+  FaJava,
 } from "react-icons/fa";
 
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 // about data
 const about = {
-  title: "About me",
+  title: "Sobre mí",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Soy un apasionado de la informática y la tecnología desde pequeño, siempre curioso por entender cómo funcionan las cosas y cómo mejorarlas. A los 16 años comencé a estudiar programación a través de cursos como Mastermind, Harvard University y Evolve Academy. Hoy en día, soy capaz de crear aplicaciones web desde cero, combinando diseño y funcionalidad de forma eficiente. Me adapto rápido, disfruto resolviendo problemas y me he preparado intensamente para aportar valor como desarrollador Full Stack en nuevos desafíos.",
   info: [
     {
-      fieldName: "Name",
-      fieldValue: "Luke Coleman",
+      fieldName: "Nombre",
+      fieldValue: "Carlos Nicolae",
     },
     {
-      fieldName: "Phone",
-      fieldValue: "(+40) 321 654 678",
+      fieldName: "Teléfono",
+      fieldValue: "(+34) 643 373 083",
     },
     {
-      fieldName: "Experience",
-      fieldValue: "12+ Years",
-    },
-    {
-      fieldName: "Skype",
-      fieldValue: "luke.01",
-    },
-    {
-      fieldName: "Nationality",
-      fieldValue: "American",
+      fieldName: "Edad",
+      fieldValue: "20 años",
     },
     {
       fieldName: "Email",
-      fieldValue: "luke.01@gmail.com",
+      fieldValue: "nicolaecarlos05@gmail.com",
     },
     {
-      fieldName: "Freelance",
-      fieldValue: "Available",
+      fieldName: "Idiomas",
+      fieldValue: "Inglés, Español",
     },
     {
-      fieldName: "Languages",
-      fieldValue: "English, Spanish",
+      fieldName: "Experiencia",
+      fieldValue: "Junior",
     },
   ],
 };
@@ -55,39 +51,14 @@ const about = {
 // experience data
 const experience = {
   icon: "/assets/resume/badge.svg",
-  title: "My experience",
+  title: "Mi experiencia",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Llevo muy poco tiempo en el mundo laboral, pero he tenido la oportunidad de trabajar en un proyecto interesante. He colaborado con una nueva marca de ropa que aun no es conocida, donde he podido aplicar mis conocimientos y hacer una tienda online desde 0. Estoy siempre buscando nuevos retos y oportunidades para crecer como desarrollador.",
   items: [
     {
-      company: "Tech Solutions Inc.",
+      company: "4TCROSS",
       position: "Full Stack Developer",
-      duration: "2022 - Present",
-    },
-    {
-      company: "Web Design Studio",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2021",
-    },
-    {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
-    },
-    {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2019 - 2020",
-    },
-    {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019",
-    },
-    {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017 - 2018",
+      duration: "Junio 2023 - Enero 2024",
     },
   ],
 };
@@ -95,48 +66,38 @@ const experience = {
 // education data
 const education = {
   icon: "/assets/resume/cap.svg",
-  title: "My education",
+  title: "Mi educación",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Desde los 16 años me he formado en programación a través de academias y plataformas reconocidas, desarrollando una base sólida en desarrollo web. Aprender es una de mis mayores pasiones, y siempre busco mejorar mis habilidades para estar al día con las nuevas tecnologías.",
   items: [
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2023",
+      institution: "FP - Audio Gil",
+      degree: "DAM",
+      duration: "2022-2024",
     },
     {
-      institution: "Codecademy",
-      degree: "Front-end Track",
-      duration: "2022",
+      institution: "Evolve Academy",
+      degree: "Desarrollador Full Stack",
+      duration: "2025",
     },
     {
-      institution: "Online Course",
+      institution: "Mastermind",
       degree: "Programming Course",
-      duration: "2020 - 2021",
+      duration: "2024",
     },
     {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
-      duration: "2019",
-    },
-    {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
-    },
-    {
-      institution: "Community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
+      institution: "Harvard University",
+      degree: "Python y JavaScript",
+      duration: "Actualidad",
     },
   ],
 };
 
 // skills data
 const skills = {
-  title: "My skills",
+  title: "Mis habilidades",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "A lo largo de mi formación y práctica constante, he ido adquiriendo habilidades en lenguajes de programación y tecnologías modernas. Entre ellas se encuentran:",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -144,7 +105,7 @@ const skills = {
     },
     {
       icon: <FaCss3 />,
-      name: "css 3",
+      name: "css",
     },
     {
       icon: <FaJs />,
@@ -154,21 +115,25 @@ const skills = {
       icon: <FaReact />,
       name: "react.js",
     },
+    /*{
+      icon: <FaPython />,
+      name: "Python",
+    },*/
     {
-      icon: <SiNextdotjs />,
-      name: "next.js",
-    },
-    {
-      icon: <SiTailwindcss />,
-      name: "tailwind.css",
+      icon: <FaGithub />,
+      name: "GitHub",
     },
     {
       icon: <FaNodeJs />,
       name: "node.js",
     },
     {
-      icon: <FaFigma />,
-      name: "figma",
+      icon: <FaDatabase />,
+      name: "SQL",
+    },
+    {
+      icon: <FaJava />,
+      name: "Java",
     },
   ],
 };
@@ -201,10 +166,10 @@ const Resume = () => {
           className="flex flex-col xl:flex-row gap-[60px]"
         >
           <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
-            <TabsTrigger value="experience">Experience</TabsTrigger>
-            <TabsTrigger value="education">Education</TabsTrigger>
-            <TabsTrigger value="skills">Skills</TabsTrigger>
-            <TabsTrigger value="about">About me</TabsTrigger>
+            <TabsTrigger value="experience">Experiencia</TabsTrigger>
+            <TabsTrigger value="education">Educación</TabsTrigger>
+            <TabsTrigger value="skills">Habilidades</TabsTrigger>
+            <TabsTrigger value="about">Sobre mí</TabsTrigger>
           </TabsList>
 
           {/* content */}
