@@ -22,34 +22,24 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
+    category: "Fullstack",
     title: "project 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/thumb1.png",
+      "Esta aplicación está en desarrollo. Trata de una aplicacion de organización de tareas para una empresa",
+    stack: [{ name: "Html 5" }, { name: "Css" }, { name: "Javascript" }, { name: "Node" }, { name: "React" }],
+    image: "/assets/thumb1.png",
     live: "",
-    github: "",
+    github: "https://github.com/Carlitoos05/Ebentizer.git",
   },
+
   {
     num: "02",
-    category: "fullstack",
+    category: "Fullstack",
     title: "project 2",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
-    image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
-  },
-  {
-    num: "03",
-    category: "frontend",
-    title: "project 3",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
-    image: "/assets/work/thumb3.png",
+      "Trata de una base de datos con interfaz para gestionar los datos de una empresa",
+    stack: [{ name: "Html 5" }, { name: "Css" }, { name: "Javascript" }, { name: "Node" }, { name: "React" }],
+    image: "/assets/thumb2.png",
     live: "",
     github: "",
   },
